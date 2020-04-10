@@ -15,11 +15,11 @@ set tabstop=2
 set shiftwidth=2
 
 " setting files
-source <sfile>:h/.vim/config/keymapping.vim
+source <sfile>:h/dev/src/github.com/kecbigmt/vim/config/keymapping.vim
 
 " expand
-let s:dein_dir = $HOME . '/.vim/bundle'
-let s:toml_dir= $HOME . '/.vim/config/toml'
+let s:dein_dir = $HOME . '/dev/src/github.com/kecbigmt/vim/bundle'
+let s:toml_dir= $HOME . '/dev/src/github.com/kecbigmt/vim/config/toml'
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 
 if &runtimepath !~# '/dein.vim'

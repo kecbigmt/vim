@@ -1,11 +1,15 @@
-# How to use.
+# 前提
+開発ディレクトリを`$HOME/dev/src/github.com/kecbigmt`としている(違う場合はコマンドや.vimrcを修正する必要があります)
+
+# 使用方法
 
 下記を実行
 
 ```
-~ $ git clone git@github.com:kkato1030/vim.git ~/.vim
-~ $ ln -s ~/.vim/.vimrc ~/.vimrc
-~ $ vim
+$ cd $HOME/dev/src/github.com/kecbigmt
+$ git clone git@github.com:kecbigmt/vim.git
+$ ln -s $HOME/dev/src/github.com/kecbigmt/vim ~/.vimrc
+$ vim
 ```
 
 .vimrc を読み込める状態にした上で vim を実行することで必要なライブラリがインストールされます
