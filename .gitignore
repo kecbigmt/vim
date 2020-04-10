@@ -2,3 +2,5 @@ bundle/repos/github.com/
 bundle/.cache/
 bundle/state_vi.vim
 bundle/cache_vi
+bundle/state_vim.vim
+bundle/cache_vim
