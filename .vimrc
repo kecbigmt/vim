@@ -7,6 +7,7 @@ set virtualedit=onemore
 set smartindent
 set showmatch
 set title
+filetype plugin on
 
 " tab
 set expandtab

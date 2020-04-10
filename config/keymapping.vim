@@ -3,6 +3,12 @@ inoremap <silent> jj <esc>
 nnoremap <silent> <c-j> :bprev<cr>
 nnoremap <silent> <c-k> :bnext<cr>
 
+" vimgrep
+nnoremap [q :cprevious<CR> "前へ
+nnoremap ]q :cnext<CR> "次へ
+nnoremap [Q :<C-u>cfirst<CR> "最初へ
+nnoremap ]Q :<C-u>clast<CR> "最後へ
+
 " move windows
 nnoremap sj <C-w>j
 nnoremap sk <C-w>k
