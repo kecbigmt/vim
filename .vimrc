@@ -1,4 +1,5 @@
 " default settings
+language C " language setting English
 set fenc=utf-8
 set number
 set cursorline
@@ -7,6 +8,7 @@ set virtualedit=onemore
 set smartindent
 set showmatch
 set title
+set backspace=indent,eol,start
 filetype plugin on
 
 " tab
@@ -40,6 +42,15 @@ endif
 if dein#check_install()
   call dein#install()
 endif
+
+call plug#begin('~/.vim/plugged')
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'mattn/vim-goimports'
+call plug#end()
 
 " syntax
 syntax on
