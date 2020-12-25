@@ -6,9 +6,8 @@
 下記を実行
 
 ```
-$ cd $HOME/dev/src/github.com/kecbigmt
-$ git clone git@github.com:kecbigmt/vim.git
-$ ln -s $HOME/dev/src/github.com/kecbigmt/vim ~/.vimrc
+$ git clone git@github.com:kecbigmt/vim.git ~/.vim
+$ ln -s ~/.vim/.vimrc ~/.vimrc
 $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 $ vim
